@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.loginController">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="375.0" layoutX="-8.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../Downloads/bbfcd5e89a0734ef5806ba84c40d888a.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUsuario" layoutX="94.0" layoutY="117.0" prefHeight="25.0" prefWidth="171.0" promptText="Informe seu usuário" />
+      <PasswordField fx:id="txtSenha" layoutX="94.0" layoutY="160.0" prefHeight="25.0" prefWidth="171.0" promptText="Informe sua senha" />
+      <ButtonBar layoutX="5.0" layoutY="152.0" prefHeight="40.0" prefWidth="70.0" />
+      <ButtonBar layoutX="91.0" layoutY="152.0" prefHeight="40.0" prefWidth="66.0" />
+      <Button layoutX="91.0" layoutY="274.0" minWidth="42.0" mnemonicParsing="false" onAction="#sair" prefHeight="26.0" text="Voltar" />
+      <Button layoutX="197.0" layoutY="274.0" minWidth="0.0" mnemonicParsing="false" onAction="#entrar" prefHeight="26.0" text="Continuar" />
+   </children>
+</Pane>
