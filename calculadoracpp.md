@@ -5,18 +5,22 @@ using namespace std;
 int main() {
     
 // VARIAVEIS
+
     double num1, num2, result;
     char v;
     
 // PRIMEIRO NUMERO
+
     cout << " Digite um número: ";
     cin >> num1;
     
 // PEDE O TIPO DE OPERAÇÃO
+
     cout << " Digite o tipo de operação: ";
     cin >> v;
     
 // VERIFICA QUAL OPERAÇÃO FOI ESCOLHIDA
+
     switch (v) {
     case '+':
         
@@ -69,10 +73,7 @@ int main() {
     cout << " resultado: " << result;
     }
         break;
-
     default:
-        
-        break;
+       break;
 }
-
 }
